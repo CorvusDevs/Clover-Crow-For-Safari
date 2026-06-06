@@ -1,214 +1,721 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title data-i18n="idx_title">क्लोवर क्रॉ: 4chan के लिए सफारी सुधार</title>
-    <meta name="description" content="यह एक Safari विस्तार है जो 4chan को 40+ मॉड्यूलों के साथ सुपरचार्ज करता है।">
-    <link rel="canonical" href="https://corvusdevs.github.io/Clover-Crow/i18n/hi/">
-    <link rel="alternate" hreflang="ar" href="https://corvusdevs.github.io/Clover-Crow/i18n/ar/">
-    <link rel="alternate" hreflang="cs" href="https://corvusdevs.github.io/Clover-Crow/i18n/cs/">
-    <link rel="alternate" hreflang="da" href="https://corvusdevs.github.io/Clover-Crow/i18n/da/">
-    <link rel="alternate" hreflang="de" href="https://corvusdevs.github.io/Clover-Crow/i18n/de/">
-    <link rel="alternate" hreflang="el" href="https://corvusdevs.github.io/Clover-Crow/i18n/el/">
-    <link rel="alternate" hreflang="en" href="https://corvusdevs.github.io/Clover-Crow/">
-    <link rel="alternate" hreflang="es" href="https://corvusdevs.github.io/Clover-Crow/i18n/es/">
-    <link rel="alternate" hreflang="es-MX" href="https://corvusdevs.github.io/Clover-Crow/i18n/es_MX/">
-    <link rel="alternate" hreflang="fi" href="https://corvusdevs.github.io/Clover-Crow/i18n/fi/">
-    <link rel="alternate" hreflang="fr" href="https://corvusdevs.github.io/Clover-Crow/i18n/fr/">
-    <link rel="alternate" hreflang="he" href="https://corvusdevs.github.io/Clover-Crow/i18n/he/">
-    <link rel="alternate" hreflang="hi" href="https://corvusdevs.github.io/Clover-Crow/i18n/hi/">
-    <link rel="alternate" hreflang="hu" href="https://corvusdevs.github.io/Clover-Crow/i18n/hu/">
-    <link rel="alternate" hreflang="id" href="https://corvusdevs.github.io/Clover-Crow/i18n/id/">
-    <link rel="alternate" hreflang="it" href="https://corvusdevs.github.io/Clover-Crow/i18n/it/">
-    <link rel="alternate" hreflang="ja" href="https://corvusdevs.github.io/Clover-Crow/i18n/ja/">
-    <link rel="alternate" hreflang="ko" href="https://corvusdevs.github.io/Clover-Crow/i18n/ko/">
-    <link rel="alternate" hreflang="ms" href="https://corvusdevs.github.io/Clover-Crow/i18n/ms/">
-    <link rel="alternate" hreflang="nb" href="https://corvusdevs.github.io/Clover-Crow/i18n/nb/">
-    <link rel="alternate" hreflang="nl" href="https://corvusdevs.github.io/Clover-Crow/i18n/nl/">
-    <link rel="alternate" hreflang="pl" href="https://corvusdevs.github.io/Clover-Crow/i18n/pl/">
-    <link rel="alternate" hreflang="pt-BR" href="https://corvusdevs.github.io/Clover-Crow/i18n/pt_BR/">
-    <link rel="alternate" hreflang="pt-PT" href="https://corvusdevs.github.io/Clover-Crow/i18n/pt_PT/">
-    <link rel="alternate" hreflang="ro" href="https://corvusdevs.github.io/Clover-Crow/i18n/ro/">
-    <link rel="alternate" hreflang="ru" href="https://corvusdevs.github.io/Clover-Crow/i18n/ru/">
-    <link rel="alternate" hreflang="sk" href="https://corvusdevs.github.io/Clover-Crow/i18n/sk/">
-    <link rel="alternate" hreflang="sv" href="https://corvusdevs.github.io/Clover-Crow/i18n/sv/">
-    <link rel="alternate" hreflang="th" href="https://corvusdevs.github.io/Clover-Crow/i18n/th/">
-    <link rel="alternate" hreflang="tr" href="https://corvusdevs.github.io/Clover-Crow/i18n/tr/">
-    <link rel="alternate" hreflang="uk" href="https://corvusdevs.github.io/Clover-Crow/i18n/uk/">
-    <link rel="alternate" hreflang="vi" href="https://corvusdevs.github.io/Clover-Crow/i18n/vi/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://corvusdevs.github.io/Clover-Crow/i18n/zh_CN/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://corvusdevs.github.io/Clover-Crow/i18n/zh_TW/">
-    <link rel="alternate" hreflang="x-default" href="https://corvusdevs.github.io/Clover-Crow/">
-    <link rel="alternate" hreflang="ar" href="https://corvusdevs.github.io/Clover-Crow/i18n/ar/">
-    <link rel="alternate" hreflang="cs" href="https://corvusdevs.github.io/Clover-Crow/i18n/cs/">
-    <link rel="alternate" hreflang="da" href="https://corvusdevs.github.io/Clover-Crow/i18n/da/">
-    <link rel="alternate" hreflang="de" href="https://corvusdevs.github.io/Clover-Crow/i18n/de/">
-    <link rel="alternate" hreflang="el" href="https://corvusdevs.github.io/Clover-Crow/i18n/el/">
-    <link rel="alternate" hreflang="en" href="https://corvusdevs.github.io/Clover-Crow/">
-    <link rel="alternate" hreflang="es" href="https://corvusdevs.github.io/Clover-Crow/i18n/es/">
-    <link rel="alternate" hreflang="es-MX" href="https://corvusdevs.github.io/Clover-Crow/i18n/es_MX/">
-    <link rel="alternate" hreflang="fi" href="https://corvusdevs.github.io/Clover-Crow/i18n/fi/">
-    <link rel="alternate" hreflang="fr" href="https://corvusdevs.github.io/Clover-Crow/i18n/fr/">
-    <link rel="alternate" hreflang="he" href="https://corvusdevs.github.io/Clover-Crow/i18n/he/">
-    <link rel="alternate" hreflang="hi" href="https://corvusdevs.github.io/Clover-Crow/i18n/hi/">
-    <link rel="alternate" hreflang="hu" href="https://corvusdevs.github.io/Clover-Crow/i18n/hu/">
-    <link rel="alternate" hreflang="id" href="https://corvusdevs.github.io/Clover-Crow/i18n/id/">
-    <link rel="alternate" hreflang="it" href="https://corvusdevs.github.io/Clover-Crow/i18n/it/">
-    <link rel="alternate" hreflang="ja" href="https://corvusdevs.github.io/Clover-Crow/i18n/ja/">
-    <link rel="alternate" hreflang="ko" href="https://corvusdevs.github.io/Clover-Crow/i18n/ko/">
-    <link rel="alternate" hreflang="ms" href="https://corvusdevs.github.io/Clover-Crow/i18n/ms/">
-    <link rel="alternate" hreflang="nb" href="https://corvusdevs.github.io/Clover-Crow/i18n/nb/">
-    <link rel="alternate" hreflang="nl" href="https://corvusdevs.github.io/Clover-Crow/i18n/nl/">
-    <link rel="alternate" hreflang="pl" href="https://corvusdevs.github.io/Clover-Crow/i18n/pl/">
-    <link rel="alternate" hreflang="pt-BR" href="https://corvusdevs.github.io/Clover-Crow/i18n/pt_BR/">
-    <link rel="alternate" hreflang="pt-PT" href="https://corvusdevs.github.io/Clover-Crow/i18n/pt_PT/">
-    <link rel="alternate" hreflang="ro" href="https://corvusdevs.github.io/Clover-Crow/i18n/ro/">
-    <link rel="alternate" hreflang="ru" href="https://corvusdevs.github.io/Clover-Crow/i18n/ru/">
-    <link rel="alternate" hreflang="sk" href="https://corvusdevs.github.io/Clover-Crow/i18n/sk/">
-    <link rel="alternate" hreflang="sv" href="https://corvusdevs.github.io/Clover-Crow/i18n/sv/">
-    <link rel="alternate" hreflang="th" href="https://corvusdevs.github.io/Clover-Crow/i18n/th/">
-    <link rel="alternate" hreflang="tr" href="https://corvusdevs.github.io/Clover-Crow/i18n/tr/">
-    <link rel="alternate" hreflang="uk" href="https://corvusdevs.github.io/Clover-Crow/i18n/uk/">
-    <link rel="alternate" hreflang="vi" href="https://corvusdevs.github.io/Clover-Crow/i18n/vi/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://corvusdevs.github.io/Clover-Crow/i18n/zh_CN/">
-    <link rel="alternate" hreflang="zh-Hant" href="https://corvusdevs.github.io/Clover-Crow/i18n/zh_TW/">
-    <link rel="alternate" hreflang="x-default" href="https://corvusdevs.github.io/Clover-Crow/">
-    <meta name="robots" content="index, follow">
-    <meta name="keywords" content="4chan, safari extension, 4chan-x, thread watcher, inline image expansion, quote preview, quick reply, regex filter, catalog, macos, ios, ipados, clover crow">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://corvusdevs.github.io/Clover-Crow/i18n/hi/">
-    <meta property="og:title" content="क्लोवर क्रॉ: 4chan के लिए सफारी सुधार">
-    <meta property="og:description" content="यह एक Safari विस्तार है जो 4chan को 40+ मॉड्यूलों के साथ सुपरचार्ज करता है।">
-    <meta property="og:image" content="https://corvusdevs.github.io/Clover-Crow/icon-128.png">
-    <meta property="og:image:width" content="128">
-    <meta property="og:image:height" content="128">
-    <meta property="og:locale" content="hi_IN">
-    <meta property="og:site_name" content="CorvusDevs">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="क्लोवर क्रॉ: 4chan के लिए सफारी सुधार">
-    <meta name="twitter:description" content="यह एक Safari विस्तार है जो 4chan को 40+ मॉड्यूलों के साथ सुपरचार्ज करता है।">
-    <meta name="twitter:image" content="https://corvusdevs.github.io/Clover-Crow/icon-128.png">
-    <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Clover Crow for Safari","description":"A Safari extension that supercharges 4chan with 40+ modules: thread watcher, inline image expansion, quote previews, a draggable quick-reply box, regex filters, translation buttons, and extended embeds.","operatingSystem":"macOS, iOS, iPadOS","applicationCategory":"BrowserApplication","downloadUrl":"https://apps.apple.com/app/clover-crow-for-safari/id6769222683","author":{"@type":"Organization","name":"CorvusDevs","url":"https://corvusdevs.github.io"}}
-    </script>
-    <link rel="icon" href="../../icon-128.png" type="image/png">
-    <link rel="stylesheet" href="../../i18n.css">
-    <style>
-        :root {
-            color-scheme: light dark;
-            --bg: #ffffff;
-            --bg-secondary: #f7f7f8;
-            --text: #1a1a1b;
-            --text-secondary: #555;
-            --accent: #789922;
-            --accent-hover: #5d7a19;
-            --border: #e5e5e5;
-            --card-bg: #ffffff;
-            --shadow: 0 1px 2px rgba(0,0,0,0.04), 0 4px 16px rgba(0,0,0,0.06);
-        }
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --bg: #1a1a1b;
-                --bg-secondary: #272729;
-                --text: #d7dadc;
-                --text-secondary: #999;
-                --border: #343536;
-                --card-bg: #272729;
-                --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 4px 16px rgba(0,0,0,0.5);
-            }
-        }
-        * { box-sizing: border-box; }
-        body {
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            line-height: 1.6;
-        }
-        .container { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
-        .hero { text-align: center; margin-bottom: 48px; }
-        .hero img { width: 96px; height: 96px; }
-        h1 { font-size: 40px; font-weight: 800; margin: 16px 0 4px; }
-        .subtitle { color: var(--text-secondary); font-size: 17px; margin: 0 0 24px; }
-        .cta {
-            display: inline-block; padding: 12px 24px; border-radius: 8px;
-            background: var(--accent); color: #fff !important;
-            text-decoration: none; font-weight: 600; font-size: 15px;
-            transition: background 0.15s;
-        }
-        .cta:hover { background: var(--accent-hover); }
-        h2 {
-            font-size: 22px; font-weight: 700; margin: 40px 0 12px;
-            padding-top: 16px; border-top: 1px solid var(--border);
-        }
-        h2:first-of-type { border-top: none; padding-top: 0; }
-        p { margin: 8px 0; }
-        ul { padding-left: 22px; margin: 8px 0; }
-        li { margin: 6px 0; }
-        a { color: var(--accent); }
-        .grid {
-            display: grid; gap: 14px;
-            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-            margin-top: 16px;
-        }
-        .card {
-            background: var(--card-bg); border: 1px solid var(--border);
-            border-radius: 10px; padding: 14px 16px; box-shadow: var(--shadow);
-        }
-        .card strong { display: block; margin-bottom: 4px; font-size: 14px; }
-        .card span { color: var(--text-secondary); font-size: 13px; }
-        footer {
-            margin-top: 56px; padding-top: 16px;
-            border-top: 1px solid var(--border);
-            font-size: 13px; color: var(--text-secondary); text-align: center;
-        }
-    </style>
+ <script>/* warm fetch for the corvus-carousel so it has data ready by render time */
+window.__corvusAppsPromise=fetch('https://corvusdevs.github.io/apps.json',{cache:'default'}).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});</script>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title data-i18n="idx_title">क्लोवर क्रॉ: 4chan के लिए सफारी सुधार</title>
+ <meta name="description" content="यह एक Safari विस्तार है जो 4chan को 40+ मॉड्यूलों के साथ सुपरचार्ज करता है।">
+ <link rel="canonical" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/hi/">
+    <link rel="alternate" hreflang="ar" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/ar/">
+    <link rel="alternate" hreflang="cs" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/cs/">
+    <link rel="alternate" hreflang="da" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/da/">
+    <link rel="alternate" hreflang="de" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/de/">
+    <link rel="alternate" hreflang="el" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/el/">
+    <link rel="alternate" hreflang="en" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/">
+    <link rel="alternate" hreflang="es" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/es/">
+    <link rel="alternate" hreflang="es-MX" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/es_MX/">
+    <link rel="alternate" hreflang="fi" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/fi/">
+    <link rel="alternate" hreflang="fr" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/fr/">
+    <link rel="alternate" hreflang="he" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/he/">
+    <link rel="alternate" hreflang="hi" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/hi/">
+    <link rel="alternate" hreflang="hu" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/hu/">
+    <link rel="alternate" hreflang="id" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/id/">
+    <link rel="alternate" hreflang="it" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/it/">
+    <link rel="alternate" hreflang="ja" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/ja/">
+    <link rel="alternate" hreflang="ko" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/ko/">
+    <link rel="alternate" hreflang="ms" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/ms/">
+    <link rel="alternate" hreflang="nb" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/nb/">
+    <link rel="alternate" hreflang="nl" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/nl/">
+    <link rel="alternate" hreflang="pl" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/pl/">
+    <link rel="alternate" hreflang="pt-BR" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/pt_BR/">
+    <link rel="alternate" hreflang="pt-PT" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/pt_PT/">
+    <link rel="alternate" hreflang="ro" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/ro/">
+    <link rel="alternate" hreflang="ru" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/ru/">
+    <link rel="alternate" hreflang="sk" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/sk/">
+    <link rel="alternate" hreflang="sv" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/sv/">
+    <link rel="alternate" hreflang="th" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/th/">
+    <link rel="alternate" hreflang="tr" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/tr/">
+    <link rel="alternate" hreflang="uk" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/uk/">
+    <link rel="alternate" hreflang="vi" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/vi/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/zh_CN/">
+    <link rel="alternate" hreflang="zh-Hant" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/zh_TW/">
+    <link rel="alternate" hreflang="x-default" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/">
+    <link rel="alternate" hreflang="ar" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/ar/">
+    <link rel="alternate" hreflang="cs" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/cs/">
+    <link rel="alternate" hreflang="da" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/da/">
+    <link rel="alternate" hreflang="de" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/de/">
+    <link rel="alternate" hreflang="el" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/el/">
+    <link rel="alternate" hreflang="en" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/">
+    <link rel="alternate" hreflang="es" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/es/">
+    <link rel="alternate" hreflang="es-MX" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/es_MX/">
+    <link rel="alternate" hreflang="fi" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/fi/">
+    <link rel="alternate" hreflang="fr" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/fr/">
+    <link rel="alternate" hreflang="he" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/he/">
+    <link rel="alternate" hreflang="hi" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/hi/">
+    <link rel="alternate" hreflang="hu" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/hu/">
+    <link rel="alternate" hreflang="id" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/id/">
+    <link rel="alternate" hreflang="it" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/it/">
+    <link rel="alternate" hreflang="ja" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/ja/">
+    <link rel="alternate" hreflang="ko" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/ko/">
+    <link rel="alternate" hreflang="ms" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/ms/">
+    <link rel="alternate" hreflang="nb" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/nb/">
+    <link rel="alternate" hreflang="nl" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/nl/">
+    <link rel="alternate" hreflang="pl" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/pl/">
+    <link rel="alternate" hreflang="pt-BR" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/pt_BR/">
+    <link rel="alternate" hreflang="pt-PT" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/pt_PT/">
+    <link rel="alternate" hreflang="ro" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/ro/">
+    <link rel="alternate" hreflang="ru" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/ru/">
+    <link rel="alternate" hreflang="sk" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/sk/">
+    <link rel="alternate" hreflang="sv" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/sv/">
+    <link rel="alternate" hreflang="th" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/th/">
+    <link rel="alternate" hreflang="tr" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/tr/">
+    <link rel="alternate" hreflang="uk" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/uk/">
+    <link rel="alternate" hreflang="vi" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/vi/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/zh_CN/">
+    <link rel="alternate" hreflang="zh-Hant" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/zh_TW/">
+    <link rel="alternate" hreflang="x-default" href="https://corvusdevs.github.io/Clover-Crow-For-Safari/">
+ <meta property="og:type" content="website">
+ <meta property="og:url" content="https://corvusdevs.github.io/Clover-Crow-For-Safari/i18n/hi/">
+ <meta property="og:title" content="क्लोवर क्रॉ: 4chan के लिए सफारी सुधार">
+ <meta property="og:description" content="यह एक Safari विस्तार है जो 4chan को 40+ मॉड्यूलों के साथ सुपरचार्ज करता है।">
+ <meta property="og:image" content="https://corvusdevs.github.io/Clover-Crow-For-Safari/og-image.png">
+ <meta property="og:image:width" content="1200">
+ <meta property="og:image:height" content="630">
+ <meta property="og:locale" content="hi_IN">
+ <meta property="og:site_name" content="CorvusDevs">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="twitter:title" content="क्लोवर क्रॉ: 4chan के लिए सफारी सुधार">
+ <meta name="twitter:description" content="यह एक Safari विस्तार है जो 4chan को 40+ मॉड्यूलों के साथ सुपरचार्ज करता है।">
+ <meta name="twitter:image" content="https://corvusdevs.github.io/Clover-Crow-For-Safari/og-image.png">
+ <meta name="twitter:image:alt" content="Clover Crow for Safari app icon">
+ <meta name="robots" content="index, follow">
+ <meta name="keywords" content="4chan, safari extension, thread watcher, inline image expansion, quote preview, quick reply, regex filter, catalog, extended embeds, macos, ios, ipados, clover crow">
+ <script type="application/ld+json">
+ {
+ "@context": "https://schema.org",
+ "@type": "SoftwareApplication",
+ "name": "Clover Crow for Safari",
+ "description": "The complete power-user toolkit for 4chan, native to Safari: thread watcher, inline image expansion, quote previews, a draggable quick-reply box, regex filters, per-post translation, extended embeds, and a modernized catalog.",
+ "operatingSystem": "macOS 14.0+, iOS 17.0+, iPadOS 17.0+",
+ "applicationCategory": "BrowserApplication",
+ "applicationSubCategory": "Utilities",
+ "screenshot": "https://corvusdevs.github.io/Clover-Crow-For-Safari/og-image.png",
+ "downloadUrl": "https://apps.apple.com/app/id6769222683",
+ "author": { "@type": "Organization", "name": "CorvusDevs", "url": "https://corvusdevs.github.io" }
+ }
+ </script>
+ <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
+ <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
+ <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
+ <style>
+ :root {
+ --bg: #0a0b08;
+ --surface: #121410;
+ --surface-2: #1a1d16;
+ --border: #262a20;
+ --text: #e9ece4;
+ --text-secondary: #868d78;
+ --accent: #789922;
+ --accent-light: #b6d957;
+ --accent-dim: rgba(120, 153, 34, 0.12);
+ }
+
+ * { margin: 0; padding: 0; box-sizing: border-box; }
+
+ body {
+ font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif;
+ background: var(--bg);
+ color: var(--text);
+ line-height: 1.6;
+ -webkit-font-smoothing: antialiased;
+ overflow-x: hidden;
+ }
+
+ /* Nav */
+ nav {
+ position: fixed;
+ top: 0; left: 0; right: 0;
+ z-index: 100;
+ padding: 16px 32px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background: rgba(10, 11, 8, 0.8);
+ backdrop-filter: saturate(180%) blur(20px);
+ -webkit-backdrop-filter: saturate(180%) blur(20px);
+ }
+ .nav-brand {
+ font-size: 18px; font-weight: 700;
+ color: var(--text); text-decoration: none;
+ letter-spacing: -0.3px;
+ display: flex; align-items: center; gap: 10px;
+ }
+ .nav-brand img { width: 32px; height: 32px; border-radius: 8px; display: block; }
+ .nav-brand span { color: var(--accent-light); }
+ .nav-links { display: flex; gap: 28px; list-style: none; }
+ .nav-links a {
+ font-size: 14px; color: var(--text-secondary);
+ text-decoration: none; transition: color 0.2s;
+ }
+ .nav-links a:hover { color: var(--text); }
+
+ /* Hero */
+ .hero {
+ text-align: center;
+ padding: 140px 24px 80px;
+ position: relative; overflow: visible;
+ }
+ .hero::before {
+ content: ''; position: absolute;
+ top: -200px; left: 50%; transform: translateX(-50%);
+ width: 1000px; height: 1000px;
+ background: radial-gradient(circle, rgba(120, 153, 34, 0.12) 0%, transparent 50%);
+ pointer-events: none;
+ }
+ .hero-icon {
+ width: 120px; height: 120px;
+ border-radius: 28px; margin-bottom: 28px;
+ border: 2px solid var(--border);
+ box-shadow: 0 0 60px 20px rgba(120, 153, 34, 0.22), 0 0 120px 50px rgba(120, 153, 34, 0.08);
+ }
+ .hero h1 {
+ font-size: 64px; font-weight: 800;
+ letter-spacing: -3px; line-height: 1.05;
+ margin-bottom: 20px;
+ background: linear-gradient(135deg, #ffffff 0%, var(--accent-light) 100%);
+ -webkit-background-clip: text; background-clip: text;
+ -webkit-text-fill-color: transparent; color: transparent;
+ }
+ .hero .subtitle {
+ font-size: 19px; color: var(--text-secondary);
+ max-width: 620px; margin: 0 auto 40px;
+ font-weight: 400; line-height: 1.6;
+ }
+ .hero-cta {
+ display: inline-flex; align-items: center; gap: 10px;
+ padding: 16px 36px;
+ background: var(--accent);
+ color: #fff; font-size: 16px; font-weight: 600;
+ border-radius: 14px; text-decoration: none;
+ transition: all 0.2s; border: none; cursor: pointer;
+ }
+ .hero-cta:hover {
+ filter: brightness(1.15); transform: translateY(-1px);
+ box-shadow: 0 8px 32px rgba(120, 153, 34, 0.35);
+ }
+ .hero-cta svg { width: 20px; height: 20px; }
+ .hero-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+ .hero-free { display: block; margin-top: 14px; font-size: 14px; color: var(--text-secondary); }
+
+ /* Section helpers */
+ .section-label {
+ font-size: 13px; font-weight: 600;
+ text-transform: uppercase; letter-spacing: 1.5px;
+ color: var(--accent-light); text-align: center;
+ margin-bottom: 12px;
+ }
+ .section-title {
+ font-size: 44px; font-weight: 700;
+ text-align: center; letter-spacing: -1.5px;
+ margin-bottom: 56px; line-height: 1.1;
+ }
+ .gradient-text {
+ background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 40%, #fff 100%);
+ -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+ }
+
+ /* Features Grid */
+ .features { max-width: 960px; margin: 0 auto; padding: 40px 24px 100px; }
+ .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+ .feature-card {
+ background: var(--surface); border: 1px solid var(--border);
+ border-radius: 16px; padding: 32px;
+ transition: border-color 0.3s, transform 0.3s;
+ }
+ .feature-card:hover { border-color: rgba(120, 153, 34, 0.45); transform: translateY(-2px); }
+ .feature-icon {
+ width: 48px; height: 48px; border-radius: 12px;
+ background: var(--accent-dim); color: var(--accent-light);
+ display: flex; align-items: center; justify-content: center;
+ margin-bottom: 16px; box-shadow: 0 0 20px rgba(120, 153, 34, 0.18);
+ }
+ .feature-icon svg { width: 24px; height: 24px; }
+ .feature-card h3 { font-size: 17px; font-weight: 600; margin-bottom: 8px; }
+ .feature-card p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+
+ /* Secondary features list (single column, icon + title + desc) */
+ .features-list { margin-top: 32px; display: flex; flex-direction: column; gap: 4px; }
+ .feature-row {
+ display: grid; grid-template-columns: 56px 1fr; gap: 18px;
+ align-items: start; padding: 18px 20px;
+ border-radius: 12px; transition: background 0.2s;
+ }
+ .feature-row:hover { background: rgba(255,255,255,0.02); }
+ .feature-row__icon {
+ width: 40px; height: 40px; border-radius: 10px;
+ background: rgba(120, 153, 34, 0.12); color: var(--accent-light);
+ display: flex; align-items: center; justify-content: center;
+ box-shadow: 0 0 16px rgba(120, 153, 34, 0.1);
+ }
+ .feature-row__icon svg { width: 20px; height: 20px; }
+ .feature-row__body h3 { font-size: 16px; font-weight: 600; margin: 0 0 4px; }
+ .feature-row__body p { font-size: 14px; color: var(--text-secondary); line-height: 1.55; margin: 0; }
+ @media (max-width: 600px) {
+ .feature-row { padding: 14px 12px; gap: 14px; grid-template-columns: 44px 1fr; }
+ .feature-row__icon { width: 36px; height: 36px; }
+ }
+
+ /* How It Works */
+ .how-it-works { max-width: 960px; margin: 0 auto; padding: 60px 24px 100px; }
+ .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 56px; }
+ .step { text-align: center; }
+ .step-num {
+ width: 48px; height: 48px; border-radius: 14px;
+ background: var(--accent-dim); color: var(--accent-light);
+ font-size: 20px; font-weight: 700;
+ display: flex; align-items: center; justify-content: center;
+ margin: 0 auto 18px; border: 1px solid rgba(120, 153, 34, 0.25);
+ }
+ .step h3 { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
+ .step p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+
+ /* Why */
+ .why { max-width: 960px; margin: 0 auto; padding: 0 24px 100px; }
+ .why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+ .why-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 32px; }
+ .why-card h3 { font-size: 17px; font-weight: 600; margin-bottom: 10px; }
+ .why-card p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+
+ /* Requirements + Footer */
+ .req { text-align: center; padding: 0 24px 60px; font-size: 14px; color: var(--text-secondary); }
+ footer { max-width: 960px; margin: 0 auto; padding: 40px 24px 60px; border-top: 1px solid var(--border); }
+ .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; }
+ .footer-brand .logo { font-size: 18px; font-weight: 700; margin-bottom: 10px; }
+ .footer-brand .logo span { color: var(--accent-light); }
+ .footer-brand p { font-size: 13px; color: var(--text-secondary); line-height: 1.6; }
+ .footer-col h4 {
+ font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;
+ color: var(--text-secondary); margin-bottom: 14px;
+ }
+ .footer-col a {
+ display: block; font-size: 14px; color: var(--text); text-decoration: none;
+ margin-bottom: 10px; transition: color 0.2s;
+ }
+ .footer-col a:hover { color: var(--accent-light); }
+ .footer-disclaimer { margin-top: 36px; font-size: 12px; color: var(--text-secondary); line-height: 1.6; }
+ .footer-bottom {
+ margin-top: 28px; padding-top: 24px; border-top: 1px solid var(--border);
+ display: flex; justify-content: space-between; align-items: center;
+ }
+ .footer-bottom p { font-size: 12px; color: var(--text-secondary); }
+ .footer-socials { display: flex; gap: 16px; }
+ .footer-socials a { color: var(--text-secondary); transition: color 0.2s; }
+ .footer-socials a:hover { color: var(--text); }
+ .footer-socials svg { width: 18px; height: 18px; }
+
+ /* Scroll animations */
+ .fade-in {
+ opacity: 0; transform: translateY(30px);
+ transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+ }
+ .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+ /* Responsive */
+ @media (max-width: 900px) { .features-grid, .why-grid { grid-template-columns: repeat(2, 1fr); } }
+ @media (max-width: 600px) {
+ .hero h1 { font-size: 40px; letter-spacing: -2px; }
+ .hero .subtitle { font-size: 16px; }
+ .hero { padding-top: 120px; }
+ .section-title { font-size: 30px; }
+ .features-grid, .steps, .why-grid { grid-template-columns: 1fr; }
+ .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+ .footer-bottom { flex-direction: column; gap: 12px; }
+ nav { padding: 14px 16px; }
+ .nav-links { gap: 16px; }
+ }
+
+ /* Language picker */
+ .lang-wrap { position: relative; margin-left: 16px; flex-shrink: 0; display: inline-flex; align-items: center; gap: 6px; }
+ .lang-btn {
+ background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+ padding: 6px 12px; color: var(--text); font-size: 13px; cursor: pointer;
+ white-space: nowrap; display: inline-flex; align-items: center; gap: 8px;
+ }
+ .lang-menu {
+ display: none; position: absolute; top: calc(100% + 6px); right: 0; z-index: 300;
+ background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+ padding: 6px 0; min-width: 180px; max-height: 420px; overflow-y: auto;
+ box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+ }
+ .lang-menu.open { display: block; }
+ .lang-menu button {
+ display: flex; align-items: center; gap: 10px; width: 100%; padding: 8px 16px;
+ background: none; border: none; color: var(--text); font-size: 13px; cursor: pointer;
+ text-align: left; white-space: nowrap;
+ }
+ .lang-menu button:hover { background: rgba(255,255,255,0.08); }
+ .lang-menu button.active { color: var(--accent-light); }
+ .lang-flag { width: 18px; height: 13px; flex-shrink: 0; border-radius: 2px; box-shadow: 0 0 0 1px rgba(255,255,255,0.08); object-fit: cover; }
+ .lang-auto-glyph { width: 18px; height: 13px; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; color: var(--text-secondary); }
+ .lang-auto-glyph svg { display: block; width: 14px; height: 14px; }
+ .lang-glyph { display: inline-flex; align-items: center; justify-content: center; color: var(--text-secondary); pointer-events: none; }
+ .lang-glyph svg { display: block; width: 22px; height: 22px; }
+
+ /* page-carousel template v2 */
+ .corvus-carousel { max-width: 1200px; margin: 80px auto 40px; padding: 0 24px; }
+ .corvus-carousel__title { font-size: 32px; font-weight: 700; margin: 0 0 8px; letter-spacing: -0.5px; color: var(--text); }
+ .corvus-carousel__sub { font-size: 15px; color: var(--text-secondary); margin: 0 0 28px; }
+ .corvus-carousel__viewport { position: relative; }
+ .corvus-carousel__track {
+ display: flex; gap: 16px; overflow-x: auto; overflow-y: visible;
+ scroll-snap-type: x mandatory; scroll-behavior: smooth;
+ padding: 4px 4px 16px; margin: 0 -4px; scrollbar-width: thin;
+ touch-action: pan-x; -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain;
+ --fade-l: 0px; --fade-r: 0px;
+ -webkit-mask-image: linear-gradient(to right, transparent 0, black var(--fade-l), black calc(100% - var(--fade-r)), transparent 100%);
+ mask-image: linear-gradient(to right, transparent 0, black var(--fade-l), black calc(100% - var(--fade-r)), transparent 100%);
+ transition: -webkit-mask-image 0.25s, mask-image 0.25s;
+ }
+ .corvus-carousel__track::-webkit-scrollbar { height: 6px; }
+ .corvus-carousel__track::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+ .corvus-carousel__card {
+ flex: 0 0 280px; scroll-snap-align: start;
+ background: var(--surface); border: 1px solid var(--border);
+ border-radius: 14px; padding: 20px; text-decoration: none; color: var(--text);
+ display: flex; flex-direction: column; gap: 12px;
+ transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+ }
+ .corvus-carousel__card:hover { transform: translateY(-2px); border-color: var(--accent); box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+ .corvus-carousel__card-icon { width: 56px; height: 56px; border-radius: 12px; object-fit: contain; }
+ .corvus-carousel__card-name { font-size: 17px; font-weight: 600; color: var(--text); line-height: 1.2; }
+ .corvus-carousel__card-tagline { font-size: 12px; color: var(--accent-light); text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
+ .corvus-carousel__card-desc {
+ font-size: 13px; color: var(--text-secondary); line-height: 1.5; margin: 0; flex: 1;
+ display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+ }
+ .corvus-carousel__card-cta { font-size: 13px; font-weight: 600; color: var(--accent-light); display: inline-flex; align-items: center; gap: 4px; margin-top: auto; }
+ .corvus-carousel__nav {
+ position: absolute; top: 50%; transform: translateY(-50%);
+ width: 36px; height: 36px; border-radius: 50%;
+ background: var(--accent); border: 1px solid var(--accent); color: white; cursor: pointer;
+ display: flex; align-items: center; justify-content: center;
+ box-shadow: 0 4px 16px rgba(120,153,34,0.35); transition: filter 0.2s, transform 0.2s; z-index: 2;
+ }
+ .corvus-carousel__nav:hover { filter: brightness(1.1); transform: translateY(-50%) scale(1.05); }
+ .corvus-carousel__nav:disabled { background: var(--surface); color: var(--text-secondary); border-color: var(--border); box-shadow: none; cursor: default; filter: none; }
+ .corvus-carousel__nav svg { width: 20px; height: 20px; fill: none; }
+ .corvus-carousel__nav--prev { left: -18px; }
+ .corvus-carousel__nav--next { right: -18px; }
+ @media (max-width: 600px) {
+ .corvus-carousel { margin-top: 48px; }
+ .corvus-carousel__title { font-size: 26px; }
+ .corvus-carousel__card { flex-basis: 240px; padding: 16px; }
+ .corvus-carousel__nav { display: none; }
+ }
+ @media (prefers-reduced-motion: reduce) {
+ .corvus-carousel__track { scroll-behavior: auto; transition: none; }
+ .corvus-carousel__card { transition: none; }
+ .fade-in { transition: none; }
+ }
+ .corvus-carousel:has(.corvus-carousel__track:empty) { display: none; }
+ </style>
 </head>
 <body>
-    <div class="lang-wrap" id="langWrap">
-        <span class="lang-glyph" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Language"><text x="7" y="17" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" font-weight="600" fill="currentColor" text-anchor="middle">文</text><text x="17" y="17" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="currentColor" text-anchor="middle">A</text></svg></span>
-        <button class="lang-btn" id="langBtn"></button>
-        <div class="lang-menu" id="langMenu"></div>
-    </div>
 
-    <div class="container">
-        <div class="hero">
-            <img src="../../icon-128.png" alt="Clover Crow icon">
-            <h1>Clover Crow</h1>
-            <p class="subtitle" data-i18n="idx_subtitle">यह एक Safari विस्तार है जो 4chan को 40+ मॉड्यूलों के साथ सुपरचार्ज करता है।</p>
-            <a class="cta" href="https://apps.apple.com/app/clover-crow-for-safari/id6769222683" data-i18n="idx_cta">App Store पर जाएं</a>
-        </div>
+ <!-- Nav -->
+ <nav>
+ <a href="https://corvusdevs.github.io" class="nav-brand">
+ <img src="https://avatars.githubusercontent.com/u/25494090?v=4" alt="CorvusDevs">
+ Corvus<span>Devs</span>
+ </a>
+ <div style="display:flex;align-items:center;">
+ <ul class="nav-links">
+ <li><a href="#features" data-i18n="nav_features">विशेषताएं</a></li>
+ <li><a href="#how" data-i18n="nav_how">यह कैसे काम करता है</a></li>
+ <li><a href="mailto:corvusdevs@outlook.com" data-i18n="nav_contact">संपर्क करें</a></li>
+ </ul>
+ <div class="lang-wrap" id="langWrap">
+ <span class="lang-glyph" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Language" style="vertical-align:middle;"><text x="7" y="17" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', sans-serif" font-size="14" font-weight="600" fill="currentColor" text-anchor="middle">文</text><text x="17" y="17" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700" fill="currentColor" text-anchor="middle">A</text></svg></span><button class="lang-btn" id="langBtn"></button>
+ <div class="lang-menu" id="langMenu"></div>
+ </div>
+ </div>
+ </nav>
 
-        <h2 data-i18n="idx_h_about">यह क्या करता है</h2>
-        <p data-i18n="idx_about_body">Clover Crow, जो Safari के लिए 4chan-X अनुभव लाता है, किसी भी बोर्ड को खोलने पर अपने नियंत्रण ले लेता है: क्वोट्स के लिए होवर-प्रिव्यू, इनलाइन इमेज एक्सपान्शन, जो unread गिनती को बैज के साथ दिखाता है, ड्रैग करने योग्य क्विक-रिप्लॉय बॉक्स, regex फिल्टर, अनुवाद बटन, विस्तृत एम्बेड्स और बहुत कुछ।</p>
+ <!-- Hero -->
+ <section class="hero">
+ <img src="../../icon.png" alt="Clover Crow" class="hero-icon">
+ <h1>Clover Crow<br>for Safari</h1>
+ <p class="subtitle" data-i18n="idx_subtitle">यह एक Safari विस्तार है जो 4chan को 40+ मॉड्यूलों के साथ सुपरचार्ज करता है।</p>
+ <div class="hero-buttons">
+ <a href="https://apps.apple.com/app/id6769222683" class="hero-cta">
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+ <span data-i18n="idx_cta">App Store पर जाएं</span>
+ </a>
+ </div>
+ <span class="hero-free" data-i18n="hero_meta">मैकओएस 14.0+ और iOS / iPadOS 17.0+ के लिए उपलब्ध है।</span>
+ </section>
 
-        <div class="grid">
-            <div class="card"><strong data-i18n="idx_c1_t">त्वरित प्रतिक्रिया</strong><span data-i18n="idx_c1_d">खींचने योग्य और आकार बदलने योग्य उत्तर बॉक्स, जिसमें ड्राफ्ट स्वचालित सेव और एक टैप पर उद्धरण की सुविधा है।</span></div>
-            <div class="card"><strong data-i18n="idx_c2_t">इनलाइन इमेज विस्तार</strong><span data-i18n="idx_c2_d">थंबनेल पर क्लिक करें ताकि पूर्ण छवियां और वीडियो वहीं विस्तृत हों।</span></div>
-            <div class="card"><strong data-i18n="idx_c3_t">थ्रेड वाचर</strong><span data-i18n="idx_c3_d">फ़ेविकॉन और पॉपअप पर अनपढ़ संदेशों की गिनती का बैज और बुकमार्क थ्रेड्स को बुकमार्क करें।</span></div>
-            <div class="card"><strong data-i18n="idx_c4_t">उद्धरण थ्रेडिंग</strong><span data-i18n="idx_c4_d">reddit-शैली के प्रवेशित उत्तर; यह दिखाता है कि किसने किसका उद्धरण दिया।</span></div>
-            <div class="card"><strong data-i18n="idx_c5_t">तेज़ फ़िल्टर</strong><span data-i18n="idx_c5_d">नाम, ट्राइपकोड, ID, इमेज MD5, या फ़ाइल नाम के आधार पर एक क्लिक पर सन्नाटा करें।</span></div>
-            <div class="card"><strong data-i18n="idx_c6_t">पोस्ट अनुवाद करें</strong><span data-i18n="idx_c6_d">प्रति पोस्ट अनुवाद बटन Google, Bing, Yandex या Papago के माध्यम से उपलब्ध है।</span></div>
-            <div class="card"><strong data-i18n="idx_c7_t">विस्तारित एम्बेड्स</strong><span data-i18n="idx_c7_d">YouTube, वीमेओ, स्ट्रीमएबल, Twitch, इमग्र, रेडिट और बिच्यूट</span></div>
-            <div class="card"><strong data-i18n="idx_c8_t">33 भाषाएं</strong><span data-i18n="idx_c8_d">पूर्ण रूप से स्थानीकृत UI के साथ स्वतः चुने जाने वाला स्वयं का नाम ड्रॉपडाउन पिकर</span></div>
-        </div>
+ <!-- Features -->
+ <section class="features" id="features">
+ <div class="section-label fade-in" data-i18n="sec_features">विशेषताएं</div>
+ <h2 class="section-title gradient-text fade-in" data-i18n="sec_features_title">सभी आवश्यकताएं, Safari के लिए फिर से बनाया</h2>
 
-        <h2 data-i18n="idx_h_privacy">गोपनीयता</h2>
-        <p><span data-i18n="idx_privacy_body">क्लोवर क्रॉव आपके ब्राउज़र में पूरी तरह से चलता है; यह किसी भी ब्राउज़िंग डेटा को संग्रहीत, भेजता या साझा नहीं करता है, और सभी सेटिंग्स आपके डिवाइस पर संग्रहीत होती हैं।</span> <a href="../../privacy.html" data-i18n="idx_privacy_link">पूरी गोपनीयता नीति पढ़ें</a>.</p>
+ <div class="features-grid">
+ <div class="feature-card fade-in">
+ <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div>
+ <h3 data-i18n="idx_c1_t">त्वरित प्रतिक्रिया</h3>
+ <p data-i18n="idx_c1_d">खींचने योग्य और आकार बदलने योग्य उत्तर बॉक्स, जिसमें ड्राफ्ट स्वचालित सेव और एक टैप पर उद्धरण की सुविधा है।</p>
+ </div>
+ <div class="feature-card fade-in">
+ <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></div>
+ <h3 data-i18n="idx_c2_t">इनलाइन इमेज विस्तार</h3>
+ <p data-i18n="idx_c2_d">थंबनेल पर क्लिक करें ताकि पूर्ण छवियां और वीडियो वहीं विस्तृत हों।</p>
+ </div>
+ <div class="feature-card fade-in">
+ <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></div>
+ <h3 data-i18n="idx_c3_t">थ्रेड वाचर</h3>
+ <p data-i18n="idx_c3_d">फ़ेविकॉन और पॉपअप पर अनपढ़ संदेशों की गिनती का बैज और बुकमार्क थ्रेड्स को बुकमार्क करें।</p>
+ </div>
+ <div class="feature-card fade-in">
+ <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg></div>
+ <h3 data-i18n="idx_c4_t">उद्धरण थ्रेडिंग</h3>
+ <p data-i18n="idx_c4_d">reddit-शैली के प्रवेशित उत्तर; यह दिखाता है कि किसने किसका उद्धरण दिया।</p>
+ </div>
+ <div class="feature-card fade-in">
+ <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg></div>
+ <h3 data-i18n="idx_c5_t">तेज़ फ़िल्टर</h3>
+ <p data-i18n="idx_c5_d">नाम, ट्राइपकोड, ID, इमेज MD5, या फ़ाइल नाम के आधार पर एक क्लिक पर सन्नाटा करें।</p>
+ </div>
+ <div class="feature-card fade-in">
+ <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></div>
+ <h3 data-i18n="idx_c6_t">पोस्ट अनुवाद करें</h3>
+ <p data-i18n="idx_c6_d">प्रति पोस्ट अनुवाद बटन Google, Bing, Yandex या Papago के माध्यम से उपलब्ध है।</p>
+ </div>
+ <div class="feature-card fade-in">
+ <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg></div>
+ <h3 data-i18n="idx_c7_t">विस्तारित एम्बेड्स</h3>
+ <p data-i18n="idx_c7_d">YouTube, वीमेओ, स्ट्रीमएबल, Twitch, इमग्र, रेडिट और बिच्यूट</p>
+ </div>
+ <div class="feature-card fade-in">
+ <div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><text x="0" y="14" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="currentColor">&#x6587;</text><text x="11" y="22" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="currentColor">A</text></svg></div>
+ <h3 data-i18n="idx_c8_t">33 भाषाएं</h3>
+ <p data-i18n="idx_c8_d">पूर्ण रूप से स्थानीकृत UI के साथ स्वतः चुने जाने वाला स्वयं का नाम ड्रॉपडाउन पिकर</p>
+ </div>
+ <div class="feature-card fade-in">
+ <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></div>
+ <h3 data-i18n="idx_c9_t">आधुनिकृत कैटलॉग</h3>
+ <p data-i18n="idx_c9_d">एक साफ़, कार्ड-आधारित कैटलॉग जिसमें गोल थंबनेल, होवर स्टेट और थीम-अनुकूल नियंत्रण शामिल हैं।</p>
+ </div>
+ </div>
 
-        <h2 data-i18n="idx_h_oss">ओपन सोर्स</h2>
-        <p><span data-i18n="idx_oss_body">स्रोत कोड, बग रिपोर्ट और फीचर अनुरोध यहाँ उपलब्ध हैं।</span> <a href="https://github.com/CorvusDevs/Clover-Crow" data-i18n="idx_oss_link">GitHub</a>.</p>
+ <div class="features-list">
+ <div class="feature-row fade-in">
+ <div class="feature-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+ <div class="feature-row__body"><h3 data-i18n="row1_t">उद्धरण पूर्वावलोकन और बैकलिंक्स</h3><p data-i18n="row1_d">कोई भी उद्धरण पर माउस रखकर लिंक किए गए पोस्ट का पूर्वावलोकन करें; बैकलिंक्स सूची प्रत्येक पोस्ट के नीचे प्रत्येक प्रतिक्रिया को दर्शाती है।</p></div>
+ </div>
+ <div class="feature-row fade-in">
+ <div class="feature-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="9" x2="20" y2="9"/><line x1="4" y1="15" x2="20" y2="15"/><line x1="10" y1="3" x2="8" y2="21"/><line x1="16" y1="3" x2="14" y2="21"/></svg></div>
+ <div class="feature-row__body"><h3 data-i18n="row2_t">पост संख्या</h3><p data-i18n="row2_d">प्रत्येक पोस्टर आईडी के पास पोस्ट-काउंट बैज जोड़ता है; उस पर क्लिक करने से उसी लेखक की सभी पोस्ट हाईलाइट हो जाती हैं।</p></div>
+ </div>
+ <div class="feature-row fade-in">
+ <div class="feature-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></div>
+ <div class="feature-row__body"><h3 data-i18n="row3_t">URLs लिंक करें</h3><p data-i18n="row3_d">पोस्टों में नंगे लिंक्स को क्लिक करने योग्य एंकर में बदलता है, क्योंकि 4chan इसे डिफ़ॉल्ट रूप से बंद रखता है, इसलिए इसे सेटिंग्स में दिखाया गया है।</p></div>
+ </div>
+ <div class="feature-row fade-in">
+ <div class="feature-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg></div>
+ <div class="feature-row__body"><h3 data-i18n="row4_t">कस्टम थीम</h3><p data-i18n="row4_d">एक एकीकृत गहरा या हल्का त्वचा जो 4chan के बोर्ड, कैटलॉग और रिप्लाई फॉर्म को पुनः डिज़ाइन करता है।</p></div>
+ </div>
+ <div class="feature-row fade-in">
+ <div class="feature-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+ <div class="feature-row__body"><h3 data-i18n="row5_t">सर्वव्यापी ऐप</h3><p data-i18n="row5_d">एक खरीदारी Mac, iPad और iPhone के लिए कवर करती है; कोई अलग टियर, सदस्यता या ऐप के भीतर खरीदारी नहीं।</p></div>
+ </div>
+ <div class="feature-row fade-in">
+ <div class="feature-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="5" width="22" height="14" rx="7"/><circle cx="16" cy="12" r="3"/></svg></div>
+ <div class="feature-row__body"><h3 data-i18n="row6_t">तुरंत ऑन / ऑफ</h3><p data-i18n="row6_d">एक मुख्य स्विच और प्रत्येक मॉड्यूल के लिए एक टॉगल; उपयोग न होने वाले को अनइंस्टॉल किए बिना बंद करें।</p></div>
+ </div>
+ <div class="feature-row fade-in">
+ <div class="feature-row__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 2"/></svg></div>
+ <div class="feature-row__body"><h3 data-i18n="row7_t">अपडेट में क्या नया</h3><p data-i18n="row7_d">प्रत्येक अपडेट के बाद पहली बार लॉन्च करने पर एक स्वागत पृष्ठ दिखाया जाता है जो बताता है कि क्या बदला है, और हाल ही में जोड़े गए सेटिंग्स के लिए 'नया' लेबल दिखाता है।</p></div>
+ </div>
+ </div>
+ </section>
 
-        <h2 data-i18n="idx_h_about_proj">के बारे में</h2>
-        <p data-i18n="idx_about_disclaimer">क्लोवर क्रोव् एक स्वतंत्र परियोजना है; यह 4chan या इसके संचालकों से संबद्ध नहीं है, उनकी अनुमति से नहीं है, और न ही उनके द्वारा प्रायोजित है; यहाँ &quot;4chan&quot; नाम केवल इस विस्तार द्वारा सुधारित प्लेटफ़ॉर्म की पहचान के लिए वर्णनात्मक रूप से उपयोग किया गया है।</p>
+ <!-- How it works -->
+ <section class="how-it-works" id="how">
+ <div class="section-label fade-in" data-i18n="sec_how">यह कैसे काम करता है</div>
+ <h2 class="section-title gradient-text fade-in" data-i18n="sec_how_title">4chan के लिए बेहतर तीन कदम</h2>
+ <div class="steps">
+ <div class="step fade-in">
+ <div class="step-num">1</div>
+ <h3 data-i18n="s1_t">App Store से इंस्टॉल करें</h3>
+ <p data-i18n="s1_d">Clover Crow डाउनलोड करें; परिवार साझाकरण के माध्यम से एक खरीदारी Mac, iPhone और iPad को कवर करती है।</p>
+ </div>
+ <div class="step fade-in">
+ <div class="step-num">2</div>
+ <h3 data-i18n="s2_t">सफारी में सक्षम करें</h3>
+ <p data-i18n="s2_d">सफारी सेटिंग्स खोलें, फिर एक्सटेंशन पर जाएं, क्लोवर क्रॉ को सक्षम करें और इसे 4chan तक पहुंच दें।</p>
+ </div>
+ <div class="step fade-in">
+ <div class="step-num">3</div>
+ <h3 data-i18n="s3_t">कोई भी बोर्ड खोलें</h3>
+ <p data-i18n="s3_d">4chan की तरह सामान्य रूप से ब्राउज़ करें; क्लोवर क्रो प्रीव्यू, वाचर, त्वरित उत्तर और अन्य सुविधाओं के साथ प्रबंधन करता है; सब कुछ सेटिंग्स में समायोजित करें।</p>
+ </div>
+ </div>
+ </section>
 
-        <footer>
-            <span data-i18n="idx_footer">Clover Crow को Clover Crow द्वारा विकसित किया गया है।</span> <a href="https://github.com/CorvusDevs" data-i18n="idx_footer_link">कोरवस डेव्स</a>.
-        </footer>
-    </div>
+ <!-- Why -->
+ <section class="why">
+ <div class="section-label fade-in" data-i18n="sec_why">क्लोवर क्राउ क्यों</div>
+ <h2 class="section-title gradient-text fade-in" data-i18n="sec_why_title">सफारी के लिए पूर्ण टूलकिट</h2>
+ <div class="why-grid">
+ <div class="why-card fade-in">
+ <h3 data-i18n="w1_t">पावर-यूजर पहले</h3>
+ <p data-i18n="w1_d">क्लोवर क्रॉव में वे पावर-यूजर टूलकिट सुविधाएं शामिल हैं जो लंबे समय से उपयोग किए जाने वाले ब्राउज़रों की अपेक्षा होती हैं, जैसे कि उद्धरण पूर्वावलोकन, वाचर, त्वरित उत्तर और फ़िल्टर, जो सफारी के लिए अनुकूलित किए गए हैं।</p>
+ </div>
+ <div class="why-card fade-in">
+ <h3 data-i18n="w2_t">शून्य डेटा संग्रह</h3>
+ <p data-i18n="w2_d">कोई खाते, कोई टेलीमेट्री, कोई क्लाउड नहीं। आपके देखे गए धागे, फ़िल्टर और पसंद पूरी तरह से आपके डिवाइस पर ही रहते हैं।</p>
+ </div>
+ <div class="why-card fade-in">
+ <h3 data-i18n="w3_t">पूर्ण रूप से स्थानीयकृत</h3>
+ <p data-i18n="w3_d">यह 32 अंग्रेजी-अन्य भाषाओं में उपलब्ध है, जो ऐप के भीतर बदला जा सकते हैं और आपके सिस्टम भाषा से स्वतंत्र हैं।</p>
+ </div>
+ </div>
+ </section>
 
-    <script src="../../translations.js"></script>
-    <script src="../../i18n-runtime.js"></script>
+ <p class="req fade-in" data-i18n="req">यह macOS 14.0 (Sonoma) या उससे नया संस्करण, iOS/iPadOS 17.0 या उससे नया संस्करण, और Safari 17+ के साथ संगत है।</p>
+
+ <!-- page-carousel template v2 -->
+ <section id="corvus-carousel" class="corvus-carousel" aria-labelledby="corvus-carousel-title" data-current-slug="Clover-Crow-For-Safari">
+ <h2 id="corvus-carousel-title" class="corvus-carousel__title" data-i18n="carousel_title">CorvusDevs से और</h2>
+ <p class="corvus-carousel__sub" data-i18n="carousel_sub">iOS, macOS और Safari के लिए गोपनीयता-पहले ऐप्स।</p>
+ <div class="corvus-carousel__viewport">
+ <button class="corvus-carousel__nav corvus-carousel__nav--prev" type="button" aria-label="Previous">
+ <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 18l-6-6 6-6"/></svg>
+ </button>
+ <div class="corvus-carousel__track" role="list"></div>
+ <button class="corvus-carousel__nav corvus-carousel__nav--next" type="button" aria-label="Next">
+ <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 6l6 6-6 6"/></svg>
+ </button>
+ </div>
+ </section>
+
+ <footer>
+ <div class="footer-grid">
+ <div class="footer-brand">
+ <div class="logo"><img src="../../icon.png" alt="" style="width:22px;height:22px;border-radius:5px;vertical-align:middle;margin-right:6px;">Clover <span>Crow</span></div>
+ <p data-i18n="f_brand">एक स्वतंत्र सॉफ्टवेयर स्टूडियो जो Apple प्लेटफॉर्म के लिए केंद्रित, गोपनीयता-पहले उपकरण बना रहा है।</p>
+ </div>
+ <div class="footer-col">
+ <h4 data-i18n="f_legal">कानूनी</h4>
+ <a href="../../privacy.html" data-i18n="f_privacy">गोपनीयता नीति</a>
+ </div>
+ <div class="footer-col">
+ <h4 data-i18n="f_connect">संयोजित करें</h4>
+ <a href="mailto:corvusdevs@outlook.com">corvusdevs@outlook.com</a>
+ <a href="https://github.com/CorvusDevs/Clover-Crow-For-Safari">GitHub</a>
+ </div>
+ </div>
+ <p class="footer-disclaimer" data-i18n="idx_about_disclaimer">क्लोवर क्रोव् एक स्वतंत्र परियोजना है; यह 4chan या इसके संचालकों से संबद्ध नहीं है, उनकी अनुमति से नहीं है, और न ही उनके द्वारा प्रायोजित है; यहाँ &quot;4chan&quot; नाम केवल इस विस्तार द्वारा सुधारित प्लेटफ़ॉर्म की पहचान के लिए वर्णनात्मक रूप से उपयोग किया गया है।</p>
+ <div class="footer-bottom">
+ <p data-i18n="f_copyright">© 2026 CorvusDevs. सर्वाधिकार सुरक्षित।</p>
+ <div class="footer-socials">
+ <a href="https://github.com/CorvusDevs" aria-label="GitHub">
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+ </a>
+ </div>
+ </div>
+ </footer>
+
+ <script src="../../translations.js"></script>
+ <script src="../../i18n-runtime.js"></script>
+ <script>
+ /* Scroll fade-in animations */
+ const observer = new IntersectionObserver((entries) => {
+ entries.forEach(entry => {
+ if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); }
+ });
+ }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+ document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+ </script>
+
+ <script>
+ // page-carousel template v2, see ~/.corvus-tools/page-carousel/
+ (function() {
+ const APPS_JSON_URL = 'https://corvusdevs.github.io/apps.json';
+ const section = document.getElementById('corvus-carousel');
+ if (!section) return;
+ const track = section.querySelector('.corvus-carousel__track');
+ if (!track) return;
+ function getCurrentSlug() {
+ const explicit = section.getAttribute('data-current-slug');
+ if (explicit) return explicit.toLowerCase();
+ const segs = location.pathname.split('/').filter(Boolean);
+ return segs.length ? segs[0].toLowerCase() : '';
+ }
+ function buildCard(app) {
+ const a = document.createElement('a');
+ a.className = 'corvus-carousel__card';
+ a.href = app.url; a.setAttribute('role', 'listitem');
+ const img = document.createElement('img');
+ img.className = 'corvus-carousel__card-icon';
+ img.src = app.icon; img.alt = ''; img.loading = 'lazy'; img.width = 56; img.height = 56;
+ const tag = document.createElement('div');
+ tag.className = 'corvus-carousel__card-tagline'; tag.textContent = app.tagline || '';
+ const name = document.createElement('div');
+ name.className = 'corvus-carousel__card-name'; name.textContent = app.name;
+ const desc = document.createElement('p');
+ desc.className = 'corvus-carousel__card-desc'; desc.textContent = app.description || '';
+ const cta = document.createElement('span');
+ cta.className = 'corvus-carousel__card-cta'; cta.textContent = 'Learn more →';
+ a.append(img, tag, name, desc, cta);
+ return a;
+ }
+ function wireNav() {
+ const prev = section.querySelector('.corvus-carousel__nav--prev');
+ const next = section.querySelector('.corvus-carousel__nav--next');
+ if (!prev || !next) return;
+ const FADE_PX = 80;
+ const stepFn = () => Math.max(track.clientWidth * 0.8, 280 + 16);
+ prev.addEventListener('click', () => track.scrollBy({ left: -stepFn(), behavior: 'smooth' }));
+ next.addEventListener('click', () => track.scrollBy({ left: stepFn(), behavior: 'smooth' }));
+ function sync() {
+ const atStart = track.scrollLeft <= 4;
+ const atEnd = track.scrollLeft + track.clientWidth >= track.scrollWidth - 4;
+ prev.disabled = atStart; next.disabled = atEnd;
+ track.style.setProperty('--fade-l', atStart ? '0px' : FADE_PX + 'px');
+ track.style.setProperty('--fade-r', atEnd ? '0px' : FADE_PX + 'px');
+ }
+ track.addEventListener('scroll', sync, { passive: true });
+ window.addEventListener('resize', sync, { passive: true });
+ sync();
+ }
+ function render(data) {
+ const apps = (data && Array.isArray(data.apps)) ? data.apps : [];
+ const currentSlug = getCurrentSlug();
+ const filtered = apps.filter(a => (a.slug || '').toLowerCase() !== currentSlug);
+ if (!filtered.length) { if (!track.children.length) section.style.display = 'none'; return; }
+ filtered.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
+ const frag = document.createDocumentFragment();
+ for (const app of filtered) frag.appendChild(buildCard(app));
+ track.replaceChildren(frag);
+ section.style.display = '';
+ if (!render._navWired) { wireNav(); render._navWired = true; }
+ else { window.dispatchEvent(new Event('resize')); }
+ }
+ const CACHE_KEY = 'corvusApps_v1';
+ try { const c = localStorage.getItem(CACHE_KEY); if (c) render(JSON.parse(c)); } catch (_) {}
+ const fresh = (window.__corvusAppsPromise && typeof window.__corvusAppsPromise.then === 'function')
+ ? window.__corvusAppsPromise
+ : fetch(APPS_JSON_URL, { cache: 'default' }).then(r => r.ok ? r.json() : null).catch(() => null);
+ fresh.then(data => {
+ if (!data) { if (!track.children.length) section.style.display = 'none'; return; }
+ try { localStorage.setItem(CACHE_KEY, JSON.stringify(data)); } catch (_) {}
+ render(data);
+ });
+ })();
+ </script>
 </body>
 </html>

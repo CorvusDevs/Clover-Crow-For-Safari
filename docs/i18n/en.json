@@ -3,6 +3,18 @@
     "text": "Clover Crow: 4chan Enhancement for Safari",
     "context": "label"
   },
+  "nav_features": {
+    "text": "Features",
+    "context": "description"
+  },
+  "nav_how": {
+    "text": "How it works",
+    "context": "description"
+  },
+  "nav_contact": {
+    "text": "Contact",
+    "context": "description"
+  },
   "idx_subtitle": {
     "text": "A Safari extension that supercharges 4chan with 40+ modules.",
     "context": "description"
@@ -11,13 +23,17 @@
     "text": "Get on the App Store",
     "context": "label"
   },
-  "idx_h_about": {
-    "text": "What it does",
-    "context": "label"
-  },
-  "idx_about_body": {
-    "text": "Clover Crow brings the 4chan-X experience to Safari. Open any board, and Clover Crow takes over: hover-preview quotes, inline image expansion, a thread watcher that badges unread counts, a draggable quick-reply box, regex filters, translation buttons, extended embeds, and a lot more.",
+  "hero_meta": {
+    "text": "macOS 14.0+ · iOS / iPadOS 17.0+",
     "context": "description"
+  },
+  "sec_features": {
+    "text": "Features",
+    "context": "description"
+  },
+  "sec_features_title": {
+    "text": "Everything you need, rebuilt for Safari",
+    "context": "label"
   },
   "idx_c1_t": {
     "text": "Quick Reply",
@@ -83,45 +99,169 @@
     "text": "Fully localized UI with autonym dropdown picker",
     "context": "description"
   },
-  "idx_h_privacy": {
-    "text": "Privacy",
+  "idx_c9_t": {
+    "text": "Modernized Catalog",
     "context": "label"
   },
-  "idx_privacy_body": {
-    "text": "Clover Crow runs entirely in your browser. It does not collect, transmit, or share any browsing data. All settings are stored on your device.",
+  "idx_c9_d": {
+    "text": "A clean, card-based catalog with rounded thumbnails, hover states, and themed controls",
     "context": "description"
   },
-  "idx_privacy_link": {
-    "text": "Read the full privacy policy",
+  "row1_t": {
+    "text": "Quote Previews and Backlinks",
     "context": "label"
   },
-  "idx_h_oss": {
-    "text": "Open source",
-    "context": "label"
-  },
-  "idx_oss_body": {
-    "text": "Source code, bug reports, and feature requests live on",
+  "row1_d": {
+    "text": "Hover any quote to preview the linked post inline. Backlinks list every reply beneath each post.",
     "context": "description"
   },
-  "idx_oss_link": {
-    "text": "GitHub",
+  "row2_t": {
+    "text": "ID Post Count",
     "context": "label"
   },
-  "idx_h_about_proj": {
-    "text": "About",
+  "row2_d": {
+    "text": "Adds a post-count badge next to each poster ID. Click it to highlight every post from the same author.",
+    "context": "description"
+  },
+  "row3_t": {
+    "text": "Linkify URLs",
     "context": "label"
+  },
+  "row3_d": {
+    "text": "Turns bare links in posts into clickable anchors. Surfaced in settings because 4chan keeps it off by default.",
+    "context": "description"
+  },
+  "row4_t": {
+    "text": "Custom Theme",
+    "context": "label"
+  },
+  "row4_d": {
+    "text": "A cohesive dark or light skin that restyles the native 4chan board, catalog, and reply form.",
+    "context": "description"
+  },
+  "row5_t": {
+    "text": "Universal App",
+    "context": "label"
+  },
+  "row5_d": {
+    "text": "One purchase covers Mac, iPad, and iPhone. No separate tier, no subscription, no in-app purchases.",
+    "context": "description"
+  },
+  "row6_t": {
+    "text": "Instant On / Off",
+    "context": "label"
+  },
+  "row6_d": {
+    "text": "A master switch plus a toggle for every module. Turn off what you don't use without uninstalling.",
+    "context": "description"
+  },
+  "row7_t": {
+    "text": "What's New on Update",
+    "context": "label"
+  },
+  "row7_d": {
+    "text": "A welcome sheet on first launch after every update shows what changed, with NEW pills on recently added settings.",
+    "context": "description"
+  },
+  "sec_how": {
+    "text": "How it works",
+    "context": "description"
+  },
+  "sec_how_title": {
+    "text": "Three steps to a better 4chan",
+    "context": "label"
+  },
+  "s1_t": {
+    "text": "Install from the App Store",
+    "context": "label"
+  },
+  "s1_d": {
+    "text": "Download Clover Crow. One purchase covers Mac, iPhone, and iPad via Family Sharing.",
+    "context": "description"
+  },
+  "s2_t": {
+    "text": "Enable in Safari",
+    "context": "label"
+  },
+  "s2_d": {
+    "text": "Open Safari Settings, then Extensions, then enable Clover Crow and grant it access to 4chan.",
+    "context": "description"
+  },
+  "s3_t": {
+    "text": "Open any board",
+    "context": "label"
+  },
+  "s3_d": {
+    "text": "Browse 4chan as usual. Clover Crow takes over with previews, the watcher, quick reply, and more. Tune everything in settings.",
+    "context": "description"
+  },
+  "sec_why": {
+    "text": "Why Clover Crow",
+    "context": "description"
+  },
+  "sec_why_title": {
+    "text": "The complete toolkit, native to Safari",
+    "context": "label"
+  },
+  "w1_t": {
+    "text": "Power-user first",
+    "context": "label"
+  },
+  "w1_d": {
+    "text": "Clover Crow packs the power-user toolkit long-time browsers expect, the quote previews, watcher, quick reply, and filters, tuned for Safari.",
+    "context": "description"
+  },
+  "w2_t": {
+    "text": "Zero data collection",
+    "context": "label"
+  },
+  "w2_d": {
+    "text": "No accounts, no telemetry, no cloud. Your watched threads, filters, and preferences live entirely on your device.",
+    "context": "description"
+  },
+  "w3_t": {
+    "text": "Fully localized",
+    "context": "label"
+  },
+  "w3_d": {
+    "text": "Translated into 32 non-English locales, switchable in-app, independent of your system language.",
+    "context": "description"
+  },
+  "req": {
+    "text": "Requires macOS 14.0 (Sonoma) or later, or iOS / iPadOS 17.0 or later. Works with Safari 17+.",
+    "context": "description"
+  },
+  "carousel_title": {
+    "text": "More from CorvusDevs",
+    "context": "label"
+  },
+  "carousel_sub": {
+    "text": "Privacy-first apps for macOS, iOS, and Safari.",
+    "context": "description"
+  },
+  "f_brand": {
+    "text": "Indie software studio. Building focused, privacy-first tools for Apple platforms.",
+    "context": "description"
+  },
+  "f_legal": {
+    "text": "Legal",
+    "context": "description"
+  },
+  "f_privacy": {
+    "text": "Privacy Policy",
+    "context": "description"
+  },
+  "f_connect": {
+    "text": "Connect",
+    "context": "description"
   },
   "idx_about_disclaimer": {
     "text": "Clover Crow is an independent project. It is not affiliated with, endorsed by, or sponsored by 4chan or its operators. The \"4chan\" name is used here descriptively to identify the platform this extension enhances.",
     "context": "description"
   },
-  "idx_footer": {
-    "text": "Clover Crow is developed by",
+  "f_copyright": {
+    "text": "© 2026 CorvusDevs. All rights reserved.",
     "context": "description"
-  },
-  "idx_footer_link": {
-    "text": "Corvus Devs",
-    "context": "label"
   },
   "prv_title": {
     "text": "Clover Crow: Privacy Policy",
@@ -260,7 +400,7 @@
     "context": "label"
   },
   "prv_third_body": {
-    "text": "Clover Crow is open source and does not embed analytics SDKs, crash reporters, advertising libraries, or social-media trackers. No third-party JavaScript is loaded at runtime unless you explicitly invoke an opt-in feature listed above.",
+    "text": "Clover Crow does not embed analytics SDKs, crash reporters, advertising libraries, or social-media trackers. No third-party JavaScript is loaded at runtime unless you explicitly invoke an opt-in feature listed above.",
     "context": "description"
   },
   "prv_h_children": {

@@ -1,7 +1,7 @@
 <div align="center">
- <img src="https://corvusdevs.github.io/Clover-Crow/icon-128.png" width="128" height="128" alt="Clover Crow icon">
+ <img src="https://corvusdevs.github.io/Clover-Crow-For-Safari/icon.png" width="128" height="128" alt="Clover Crow icon">
  <h1>Clover Crow for Safari</h1>
- <p><strong>The 4chan-X experience, built for Safari</strong></p>
+ <p><strong>The complete toolkit for 4chan, built for Safari</strong></p>
  <p>
  <a href="https://apps.apple.com/app/id6769222683">
  <img src="https://img.shields.io/badge/Download_on_the-App_Store-2563EB?style=for-the-badge&logo=app-store&logoColor=white" alt="Download on the App Store">
@@ -14,13 +14,13 @@
  <img src="https://img.shields.io/badge/Languages-33-4CAF50?style=flat-square" alt="33 Languages">
  </p>
  <p>
- <a href="https://corvusdevs.github.io/Clover-Crow/">Website</a>
+ <a href="https://corvusdevs.github.io/Clover-Crow-For-Safari/">Website</a>
  </p>
 </div>
 
 ---
 
-Clover Crow brings the 4chan-X power-user toolkit to Safari. Open any board and it takes over: hover-preview quotes, inline image and video expansion, a thread watcher that badges unread counts, a draggable quick-reply box, regex filters, per-post translation, extended embeds, and a fully modernized catalog. It is not a Chrome extension ported across. It is built for Safari with native performance, no background processes, and zero data collection.
+Clover Crow brings a complete power-user toolkit to 4chan on Safari. Open any board and it takes over: hover-preview quotes, inline image and video expansion, a thread watcher that badges unread counts, a draggable quick-reply box, regex filters, per-post translation, extended embeds, and a fully modernized catalog. It is not a Chrome extension ported across. It is built for Safari with native performance, no background processes, and zero data collection.
 
 ## Features
 
@@ -39,7 +39,7 @@ Clover Crow brings the 4chan-X power-user toolkit to Safari. Open any board and 
 
 ## Privacy
 
-No account required. No sign-ups, no cloud tracking, no analytics. Your watched threads, filters, and preferences live entirely on your device. Clover Crow collects zero data. See the [full privacy policy](https://corvusdevs.github.io/Clover-Crow/privacy.html).
+No account required. No sign-ups, no cloud tracking, no analytics. Your watched threads, filters, and preferences live entirely on your device. Clover Crow collects zero data. See the [full privacy policy](https://corvusdevs.github.io/Clover-Crow-For-Safari/privacy.html).
 
 ## About
 
