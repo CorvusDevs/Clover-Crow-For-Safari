@@ -1,0 +1,302 @@
+{
+  "idx_title": {
+    "text": "Clover Crow: 4chan Enhancement for Safari",
+    "context": "label"
+  },
+  "idx_subtitle": {
+    "text": "A Safari extension that supercharges 4chan with 40+ modules.",
+    "context": "description"
+  },
+  "idx_cta": {
+    "text": "Get on the App Store",
+    "context": "label"
+  },
+  "idx_h_about": {
+    "text": "What it does",
+    "context": "label"
+  },
+  "idx_about_body": {
+    "text": "Clover Crow brings the 4chan-X experience to Safari. Open any board, and Clover Crow takes over: hover-preview quotes, inline image expansion, a thread watcher that badges unread counts, a draggable quick-reply box, regex filters, translation buttons, extended embeds, and a lot more.",
+    "context": "description"
+  },
+  "idx_c1_t": {
+    "text": "Quick Reply",
+    "context": "label"
+  },
+  "idx_c1_d": {
+    "text": "Draggable, resizable reply box with draft autosave and one-tap quoting",
+    "context": "description"
+  },
+  "idx_c2_t": {
+    "text": "Inline Image Expansion",
+    "context": "label"
+  },
+  "idx_c2_d": {
+    "text": "Click thumbnails to expand full images and videos in place",
+    "context": "description"
+  },
+  "idx_c3_t": {
+    "text": "Thread Watcher",
+    "context": "label"
+  },
+  "idx_c3_d": {
+    "text": "Bookmark threads, badge unread counts on the favicon and popup",
+    "context": "description"
+  },
+  "idx_c4_t": {
+    "text": "Quote Threading",
+    "context": "label"
+  },
+  "idx_c4_d": {
+    "text": "Reddit-style indented replies; nested view of who quoted whom",
+    "context": "description"
+  },
+  "idx_c5_t": {
+    "text": "Quick Filter",
+    "context": "label"
+  },
+  "idx_c5_d": {
+    "text": "One-click mute by name, tripcode, ID, image MD5, or filename",
+    "context": "description"
+  },
+  "idx_c6_t": {
+    "text": "Translate Post",
+    "context": "label"
+  },
+  "idx_c6_d": {
+    "text": "Per-post translate button via Google, Bing, Yandex, or Papago",
+    "context": "description"
+  },
+  "idx_c7_t": {
+    "text": "Extended Embeds",
+    "context": "label"
+  },
+  "idx_c7_d": {
+    "text": "YouTube, Vimeo, Streamable, Twitch, Imgur, Reddit, Bitchute",
+    "context": "description"
+  },
+  "idx_c8_t": {
+    "text": "33 Languages",
+    "context": "label"
+  },
+  "idx_c8_d": {
+    "text": "Fully localized UI with autonym dropdown picker",
+    "context": "description"
+  },
+  "idx_h_privacy": {
+    "text": "Privacy",
+    "context": "label"
+  },
+  "idx_privacy_body": {
+    "text": "Clover Crow runs entirely in your browser. It does not collect, transmit, or share any browsing data. All settings are stored on your device.",
+    "context": "description"
+  },
+  "idx_privacy_link": {
+    "text": "Read the full privacy policy",
+    "context": "label"
+  },
+  "idx_h_oss": {
+    "text": "Open source",
+    "context": "label"
+  },
+  "idx_oss_body": {
+    "text": "Source code, bug reports, and feature requests live on",
+    "context": "description"
+  },
+  "idx_oss_link": {
+    "text": "GitHub",
+    "context": "label"
+  },
+  "idx_h_about_proj": {
+    "text": "About",
+    "context": "label"
+  },
+  "idx_about_disclaimer": {
+    "text": "Clover Crow is an independent project. It is not affiliated with, endorsed by, or sponsored by 4chan or its operators. The \"4chan\" name is used here descriptively to identify the platform this extension enhances.",
+    "context": "description"
+  },
+  "idx_footer": {
+    "text": "Clover Crow is developed by",
+    "context": "description"
+  },
+  "idx_footer_link": {
+    "text": "Corvus Devs",
+    "context": "label"
+  },
+  "prv_title": {
+    "text": "Clover Crow: Privacy Policy",
+    "context": "label"
+  },
+  "prv_h1": {
+    "text": "Privacy Policy",
+    "context": "label"
+  },
+  "prv_subtitle": {
+    "text": "Clover Crow for Safari. Last updated 2026-05-13",
+    "context": "description"
+  },
+  "prv_tldr_label": {
+    "text": "TL;DR.",
+    "context": "label"
+  },
+  "prv_tldr_body": {
+    "text": "Clover Crow does not collect, transmit, or share any personal data. Every setting and every cached value stays on your device. There is no analytics, no telemetry, no account, and no server.",
+    "context": "description"
+  },
+  "prv_h_what": {
+    "text": "What is Clover Crow?",
+    "context": "label"
+  },
+  "prv_what_body": {
+    "text": "Clover Crow is a Safari Web Extension that enhances the 4chan browsing experience with 40+ modules: thread watcher, quote previews, inline image expansion, a quick-reply box, regex filters, extended embeds, and more. It runs entirely inside your browser; the host app exists only to install the extension into Safari.",
+    "context": "description"
+  },
+  "prv_h_data": {
+    "text": "What data Clover Crow collects",
+    "context": "label"
+  },
+  "prv_data_lead": {
+    "text": "None that ever leaves your device.",
+    "context": "label"
+  },
+  "prv_data_body": {
+    "text": "Clover Crow stores the following on your device using Safari's local extension storage:",
+    "context": "description"
+  },
+  "prv_data_i1_t": {
+    "text": "Module preferences",
+    "context": "label"
+  },
+  "prv_data_i1_d": {
+    "text": ": which features you have enabled and any options you have customized (e.g. theme, quick-reply transparency, autoupdate interval).",
+    "context": "description"
+  },
+  "prv_data_i2_t": {
+    "text": "Per-thread state",
+    "context": "label"
+  },
+  "prv_data_i2_d": {
+    "text": ": counts of posts you have seen so the unread badge works (kept up to 30 days).",
+    "context": "description"
+  },
+  "prv_data_i3_t": {
+    "text": "Watched threads and saved drafts",
+    "context": "label"
+  },
+  "prv_data_i3_d": {
+    "text": ": only if you actively use the Thread Watcher or Saved Drafts modules.",
+    "context": "description"
+  },
+  "prv_data_i4_t": {
+    "text": "UI state",
+    "context": "label"
+  },
+  "prv_data_i4_d": {
+    "text": ": your selected display language, whether the review prompt has been dismissed, popup-open count for triggering that prompt.",
+    "context": "description"
+  },
+  "prv_data_foot": {
+    "text": "All of this lives in Safari's browser.storage.local sandbox. It is never read by Clover Crow's developer, and it is never sent to any server.",
+    "context": "description"
+  },
+  "prv_h_net": {
+    "text": "Network access",
+    "context": "label"
+  },
+  "prv_net_body": {
+    "text": "Clover Crow's content scripts only run on 4chan.org / 4channel.org pages. The extension makes additional network requests only to 4chan's own public endpoints (a.4cdn.org, i.4cdn.org, s.4cdn.org) for thread updates and image expansion, the same endpoints your browser already hits when you load 4chan normally.",
+    "context": "description"
+  },
+  "prv_net_optional": {
+    "text": "Optional features that can route traffic to third-party services, all off by default:",
+    "context": "description"
+  },
+  "prv_net_i1_t": {
+    "text": "Translate Post",
+    "context": "label"
+  },
+  "prv_net_i1_d": {
+    "text": ": opens a translation URL (Google / Bing / Yandex / Papago) in a new tab when you click the per-post translate button. Their privacy practices are governed by their own policies.",
+    "context": "description"
+  },
+  "prv_net_i2_t": {
+    "text": "Resurrect Dead Quotes",
+    "context": "label"
+  },
+  "prv_net_i2_d": {
+    "text": ": links dead quotes to third-party 4chan archive sites (e.g. archived.moe).",
+    "context": "description"
+  },
+  "prv_net_i3_t": {
+    "text": "Extended Embeds",
+    "context": "label"
+  },
+  "prv_net_i3_d": {
+    "text": ": when you click an embed button, the embed iframe loads from the original host (YouTube, Vimeo, Imgur, etc.).",
+    "context": "description"
+  },
+  "prv_h_perms": {
+    "text": "Permissions",
+    "context": "label"
+  },
+  "prv_perms_body": {
+    "text": "Safari grants Clover Crow the following permissions:",
+    "context": "description"
+  },
+  "prv_perms_i1": {
+    "text": "storage: to save your preferences locally.",
+    "context": "description"
+  },
+  "prv_perms_i2": {
+    "text": "Host access to 4chan.org / 4channel.org, so the extension can modify 4chan pages.",
+    "context": "description"
+  },
+  "prv_perms_i3": {
+    "text": "Host access to a.4cdn.org, i.4cdn.org, s.4cdn.org, 4chan's official JSON, image, and static-asset endpoints.",
+    "context": "description"
+  },
+  "prv_h_third": {
+    "text": "Third-party services",
+    "context": "label"
+  },
+  "prv_third_body": {
+    "text": "Clover Crow is open source and does not embed analytics SDKs, crash reporters, advertising libraries, or social-media trackers. No third-party JavaScript is loaded at runtime unless you explicitly invoke an opt-in feature listed above.",
+    "context": "description"
+  },
+  "prv_h_children": {
+    "text": "Children's privacy",
+    "context": "label"
+  },
+  "prv_children_body": {
+    "text": "Clover Crow does not knowingly process data from children. Since 4chan's own terms require users to be at least 18, and Clover Crow only operates on 4chan, this requirement is enforced upstream.",
+    "context": "description"
+  },
+  "prv_h_changes": {
+    "text": "Changes to this policy",
+    "context": "label"
+  },
+  "prv_changes_body": {
+    "text": "If this policy ever changes, the \"Last updated\" date at the top will reflect the new revision. Material changes will also be mentioned in the extension's release notes.",
+    "context": "description"
+  },
+  "prv_h_contact": {
+    "text": "Contact",
+    "context": "label"
+  },
+  "prv_contact_body": {
+    "text": "Questions, concerns, or feedback?",
+    "context": "description"
+  },
+  "prv_contact_link": {
+    "text": "Open an issue on GitHub",
+    "context": "label"
+  },
+  "prv_footer": {
+    "text": "Clover Crow is developed by Corvus Devs.",
+    "context": "description"
+  },
+  "prv_footer_link": {
+    "text": "Back to home",
+    "context": "label"
+  }
+}

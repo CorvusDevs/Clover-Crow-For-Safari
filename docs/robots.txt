@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://corvusdevs.github.io/Clover-Crow/sitemap.xml

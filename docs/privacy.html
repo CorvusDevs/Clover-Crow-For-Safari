@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title data-i18n="prv_title">Clover Crow: Privacy Policy</title>
+    <meta name="description" content="Privacy policy for Clover Crow, the 4chan enhancement suite for Safari.">
+    <link rel="icon" href="icon-128.png" type="image/png">
+    <link rel="stylesheet" href="i18n.css">
+    <style>
+        :root {
+            color-scheme: light dark;
+            --bg: #ffffff;
+            --card-bg: #ffffff;
+            --text: #1a1a1b;
+            --text-secondary: #555;
+            --accent: #789922;
+            --border: #e5e5e5;
+            --code-bg: #f6f7f8;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1a1a1b;
+                --card-bg: #272729;
+                --text: #d7dadc;
+                --text-secondary: #999;
+                --border: #343536;
+                --code-bg: #272729;
+            }
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .container { max-width: 720px; margin: 0 auto; padding: 40px 24px 80px; }
+        h1 { font-size: 32px; font-weight: 700; margin: 0 0 4px; }
+        .subtitle { color: var(--text-secondary); font-size: 15px; margin: 0 0 32px; }
+        h2 {
+            font-size: 20px; font-weight: 600; margin: 32px 0 10px;
+            padding-top: 12px; border-top: 1px solid var(--border);
+        }
+        h2:first-of-type { border-top: none; padding-top: 0; }
+        p { margin: 8px 0; }
+        ul { padding-left: 22px; margin: 8px 0; }
+        li { margin: 4px 0; }
+        a { color: var(--accent); }
+        .tldr {
+            background: var(--code-bg); border-left: 3px solid var(--accent);
+            padding: 14px 18px; border-radius: 6px; margin: 24px 0;
+        }
+        .tldr strong { font-weight: 700; }
+        footer {
+            margin-top: 48px; padding-top: 16px;
+            border-top: 1px solid var(--border);
+            font-size: 13px; color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+    <div class="lang-wrap" id="langWrap">
+        <span class="lang-glyph" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Language"><text x="7" y="17" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" font-weight="600" fill="currentColor" text-anchor="middle">文</text><text x="17" y="17" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="currentColor" text-anchor="middle">A</text></svg></span>
+        <button class="lang-btn" id="langBtn"></button>
+        <div class="lang-menu" id="langMenu"></div>
+    </div>
+
+    <div class="container">
+        <h1 data-i18n="prv_h1">Privacy Policy</h1>
+        <p class="subtitle" data-i18n="prv_subtitle">Clover Crow for Safari. Last updated 2026-05-13</p>
+
+        <div class="tldr">
+            <strong data-i18n="prv_tldr_label">TL;DR.</strong> <span data-i18n="prv_tldr_body">Clover Crow does not collect, transmit, or share any personal data. Every setting and every cached value stays on your device. There is no analytics, no telemetry, no account, and no server.</span>
+        </div>
+
+        <h2 data-i18n="prv_h_what">What is Clover Crow?</h2>
+        <p data-i18n="prv_what_body">Clover Crow is a Safari Web Extension that enhances the 4chan browsing experience with 40+ modules: thread watcher, quote previews, inline image expansion, a quick-reply box, regex filters, extended embeds, and more. It runs entirely inside your browser; the host app exists only to install the extension into Safari.</p>
+
+        <h2 data-i18n="prv_h_data">What data Clover Crow collects</h2>
+        <p><strong data-i18n="prv_data_lead">None that ever leaves your device.</strong> <span data-i18n="prv_data_body">Clover Crow stores the following on your device using Safari's local extension storage:</span></p>
+        <ul>
+            <li><strong data-i18n="prv_data_i1_t">Module preferences</strong><span data-i18n="prv_data_i1_d">: which features you have enabled and any options you have customized (e.g. theme, quick-reply transparency, autoupdate interval).</span></li>
+            <li><strong data-i18n="prv_data_i2_t">Per-thread state</strong><span data-i18n="prv_data_i2_d">: counts of posts you have seen so the unread badge works (kept up to 30 days).</span></li>
+            <li><strong data-i18n="prv_data_i3_t">Watched threads and saved drafts</strong><span data-i18n="prv_data_i3_d">: only if you actively use the Thread Watcher or Saved Drafts modules.</span></li>
+            <li><strong data-i18n="prv_data_i4_t">UI state</strong><span data-i18n="prv_data_i4_d">: your selected display language, whether the review prompt has been dismissed, popup-open count for triggering that prompt.</span></li>
+        </ul>
+        <p data-i18n="prv_data_foot">All of this lives in Safari's browser.storage.local sandbox. It is never read by Clover Crow's developer, and it is never sent to any server.</p>
+
+        <h2 data-i18n="prv_h_net">Network access</h2>
+        <p data-i18n="prv_net_body">Clover Crow's content scripts only run on 4chan.org / 4channel.org pages. The extension makes additional network requests only to 4chan's own public endpoints (a.4cdn.org, i.4cdn.org, s.4cdn.org) for thread updates and image expansion, the same endpoints your browser already hits when you load 4chan normally.</p>
+        <p data-i18n="prv_net_optional">Optional features that can route traffic to third-party services, all off by default:</p>
+        <ul>
+            <li><strong data-i18n="prv_net_i1_t">Translate Post</strong><span data-i18n="prv_net_i1_d">: opens a translation URL (Google / Bing / Yandex / Papago) in a new tab when you click the per-post translate button. Their privacy practices are governed by their own policies.</span></li>
+            <li><strong data-i18n="prv_net_i2_t">Resurrect Dead Quotes</strong><span data-i18n="prv_net_i2_d">: links dead quotes to third-party 4chan archive sites (e.g. archived.moe).</span></li>
+            <li><strong data-i18n="prv_net_i3_t">Extended Embeds</strong><span data-i18n="prv_net_i3_d">: when you click an embed button, the embed iframe loads from the original host (YouTube, Vimeo, Imgur, etc.).</span></li>
+        </ul>
+
+        <h2 data-i18n="prv_h_perms">Permissions</h2>
+        <p data-i18n="prv_perms_body">Safari grants Clover Crow the following permissions:</p>
+        <ul>
+            <li data-i18n="prv_perms_i1">storage: to save your preferences locally.</li>
+            <li data-i18n="prv_perms_i2">Host access to 4chan.org / 4channel.org, so the extension can modify 4chan pages.</li>
+            <li data-i18n="prv_perms_i3">Host access to a.4cdn.org, i.4cdn.org, s.4cdn.org, 4chan's official JSON, image, and static-asset endpoints.</li>
+        </ul>
+
+        <h2 data-i18n="prv_h_third">Third-party services</h2>
+        <p data-i18n="prv_third_body">Clover Crow is open source and does not embed analytics SDKs, crash reporters, advertising libraries, or social-media trackers. No third-party JavaScript is loaded at runtime unless you explicitly invoke an opt-in feature listed above.</p>
+
+        <h2 data-i18n="prv_h_children">Children's privacy</h2>
+        <p data-i18n="prv_children_body">Clover Crow does not knowingly process data from children. Since 4chan's own terms require users to be at least 18, and Clover Crow only operates on 4chan, this requirement is enforced upstream.</p>
+
+        <h2 data-i18n="prv_h_changes">Changes to this policy</h2>
+        <p data-i18n="prv_changes_body">If this policy ever changes, the "Last updated" date at the top will reflect the new revision. Material changes will also be mentioned in the extension's release notes.</p>
+
+        <h2 data-i18n="prv_h_contact">Contact</h2>
+        <p><span data-i18n="prv_contact_body">Questions, concerns, or feedback?</span> <a href="https://github.com/CorvusDevs/Clover-Crow/issues" data-i18n="prv_contact_link">Open an issue on GitHub</a>.</p>
+
+        <footer>
+            <span data-i18n="prv_footer">Clover Crow is developed by Corvus Devs.</span> <a href="./" data-i18n="prv_footer_link">Back to home</a>.
+        </footer>
+    </div>
+
+    <script src="translations.js"></script>
+    <script src="i18n-runtime.js"></script>
+</body>
+</html>
