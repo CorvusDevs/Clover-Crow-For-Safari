@@ -8,6 +8,20 @@
     <link rel="icon" href="icon-128.png" type="image/png">
     <link rel="stylesheet" href="i18n.css">
     <style>
+        /* ac-no-horizontal-scroll v1 */
+        html, body {
+            overflow-x: clip;
+            max-width: 100%;
+        }
+        img, video, iframe {
+            max-width: 100%;
+            height: auto;
+        }
+        pre, table {
+            max-width: 100%;
+            overflow-x: auto;
+        }
+
         :root {
             color-scheme: light dark;
             --bg: #ffffff;
